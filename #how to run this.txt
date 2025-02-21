@@ -1,5 +1,4 @@
-cmd
-C:\Users\HP\Desktop\real time projects\3d-portfolio-main
-
+cd
+npm i
 npm install --legacy-peer-deps
 npm run dev

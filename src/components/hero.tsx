@@ -1,4 +1,6 @@
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import Typed from "typed.js";
 
 import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
@@ -6,6 +8,35 @@ import { cn } from "../utils/lib";
 
 // Hero
 export const Hero = () => {
+  const typedElement1 = useRef<HTMLSpanElement>(null);
+  const typedElement2 = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    const typed1 = new Typed(typedElement1.current, {
+      strings: ["Hi, I'm "],
+      typeSpeed: 90,
+      backSpeed: 40,
+      backDelay: 2000,
+      startDelay: 0,
+      loop: false,
+      showCursor: false,
+    });
+    const typed2 = new Typed(typedElement2.current, {
+      strings: ["Sanjay"],
+      typeSpeed: 200,
+      backSpeed: 40,
+      backDelay: 2000,
+      startDelay: 500,
+      loop: false,
+      showCursor: false,
+    });
+
+    return () => {
+      typed1.destroy();
+      typed2.destroy();
+    };
+  }, []);
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -23,11 +54,12 @@ export const Hero = () => {
         {/* About Me */}
         <div>
           <h1 className={cn(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Shubham</span>
+            <span ref={typedElement1}></span>
+            <span className="text-[#915eff]" ref={typedElement2}></span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            I am a Software Developer & Web Developer, <br className="sm:block hidden" />
+            crafting dynamic websites, user interfaces, and scalable applications.
           </p>
         </div>
       </div>
