@@ -58,7 +58,7 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
+    link: "https://github.com/Sanjay-batthula/portfolio",
   },
 ] as const;
 
@@ -73,7 +73,7 @@ export const SERVICES = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Devops Engineer",
     icon: backend,
   },
   {
@@ -83,6 +83,7 @@ export const SERVICES = [
 ] as const;
 
 // Technologies
+
 export const TECHNOLOGIES = [
   {
     name: "HTML 5",
@@ -121,10 +122,6 @@ export const TECHNOLOGIES = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -141,16 +138,17 @@ export const TECHNOLOGIES = [
 // Experiences
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Web Developer",
+    company_name: "Edueme Reseach Labs",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2025 - March 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using Next.js and other modern technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-performance applications.",
+      "Optimizing web applications for speed, SEO, and scalability using Next.js.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participating in code reviews and providing constructive feedback to improve overall code quality.",
     ],
   },
   {

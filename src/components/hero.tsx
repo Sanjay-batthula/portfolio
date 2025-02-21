@@ -14,8 +14,8 @@ export const Hero = () => {
   useEffect(() => {
     const typed1 = new Typed(typedElement1.current, {
       strings: ["Hi, I'm "],
-      typeSpeed: 90,
-      backSpeed: 40,
+      typeSpeed: 150,
+      backSpeed: 70,
       backDelay: 2000,
       startDelay: 0,
       loop: false,
@@ -23,8 +23,8 @@ export const Hero = () => {
     });
     const typed2 = new Typed(typedElement2.current, {
       strings: ["Sanjay"],
-      typeSpeed: 200,
-      backSpeed: 40,
+      typeSpeed: 300,
+      backSpeed: 70,
       backDelay: 2000,
       startDelay: 500,
       loop: false,

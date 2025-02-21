@@ -9,11 +9,14 @@ import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 
+
 import "react-vertical-timeline-component/style.min.css";
+
 
 type ExperienceCardProps = {
   experience: (typeof EXPERIENCES)[number];
 };
+
 
 // Experience Card
 const ExperienceCard = ({ experience }: ExperienceCardProps) => (
