@@ -1,0 +1,78 @@
+{
+  "name": "3d-portfolio",
+  "version": "1.1.4",
+  "private": true,
+  "author": {
+    "name": "Sanidhya Kumar Verma",
+    "email": "sanidhya.verma12345@gmail.com",
+    "url": "https://github.com/sanidhyy"
+  },
+  "description": "Modern 3D Portfolio using React, Three.js and Typescript",
+  "keywords": [
+    "reactjs",
+    "react",
+    "porfolio-app",
+    "three-js",
+    "modern-ui/ux",
+    "js",
+    "javascript",
+    "html",
+    "css",
+    "tailwindcss"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanidhyy/3d-portfolio.git"
+  },
+  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "bugs": {
+    "url": "https://github.com/sanidhyy/3d-portfolio/issues",
+    "email": "sanidhya.verma12345@gmail.com"
+  },
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/sanidhy"
+    },
+    {
+      "type": "Buy me a coffee",
+      "url": "https://www.buymeacoffee.com/sanidhy"
+    }
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@react-three/fiber": "^8.15.19",
+    "@react-three/drei": "^9.102.6",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.8",
+    "maath": "^0.10.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "sonner": "^1.4.41",
+    "tailwind-merge": "^2.2.1",
+    "three": "^0.162.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.70",
+    "@types/react-dom": "^18.2.22",
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "@types/tailwindcss": "^3.1.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.6"
+  }
+}
