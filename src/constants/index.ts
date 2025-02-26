@@ -196,26 +196,26 @@ export const EXPERIENCES = [
 export const TESTIMONIALS = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Sanjay proved me wrong.",
+    name: "Kavya Sri",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Edueme Research Labs",
     image: user1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who truly cares about their clients' success like Sanjay does.",
+    name: "Christiano Ronaldo",
     designation: "COO",
     company: "DEF Corp",
     image: user2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Sanjay optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "P.G Keerthi",
+    designation: "Developer",
+    company: "Google",
     image: user3,
   },
 ] as const;
