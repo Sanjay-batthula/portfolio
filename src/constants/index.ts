@@ -223,9 +223,9 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Agritech-Nexus",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Agritech Nexus is a web application that enables farmers to connect with buyers and sell their products directly to them.",
     tags: [
       {
         name: "react",
