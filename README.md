@@ -251,19 +251,5 @@ The easiest way to deploy your Vite.js app is to use the [Netlify Platform](http
 
 Check out [Vite.js deployment documentation](https://vitejs.dev/guide/static-deploy) for more details.
 
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
-
-## :star2: Star History
-
-<a href="https://star-history.com/#sanidhyy/3d-portfolio&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/3d-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/3d-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/3d-portfolio&type=Timeline" />
-</picture>
-</a>
-
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
