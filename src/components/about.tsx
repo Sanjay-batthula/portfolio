@@ -51,15 +51,12 @@ export const About = () => {
 
         {/* Body */}
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          I'm a skilled website developer with experience in TypeScript and
-          Javascript, and expertise in frameworks like React, Node.js, and
-          Next.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
-        </motion.p>
+  variants={fadeIn("", "", 0.1, 1)}
+  className="empty-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+>
+  I’m an AI & Automation Specialist with hands-on experience in building intelligent chatbots, automated workflows, and web apps using tools like React, GPT APIs, and Make. I love solving real-world problems with scalable, smart solutions. Let’s automate the future together!
+</motion.p>
+
 
         {/* Service Card */}
         <div className="mt-20 flex flex-wrap gap-10">

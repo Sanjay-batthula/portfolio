@@ -65,22 +65,23 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "AI & Automation Specialist",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Software Developer",
     icon: mobile,
   },
   {
-    title: "Devops Engineer",
+    title: "DevOps Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Chatbot Developer",
     icon: creator,
   },
 ] as const;
+
 
 // Technologies
 
@@ -139,55 +140,28 @@ export const TECHNOLOGIES = [
 export const EXPERIENCES = [
   {
     title: "Web Developer",
-    company_name: "Edueme Reseach Labs",
+    company_name: "EduMe Research Labs",
     icon: starbucks,
     iconBg: "#383E56",
     date: "January 2025 - March 2025",
     points: [
-      "Developing and maintaining web applications using Next.js and other modern technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-performance applications.",
-      "Optimizing web applications for speed, SEO, and scalability using Next.js.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to improve overall code quality.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built responsive web portals using Next.js, improving performance and UX.",
+      "Integrated AI-powered chatbots for course assistance and LMS navigation.",
+      "Streamlined student management and course tracking with backend integrations.",
+      "Collaborated with teams to enhance UI/UX and optimize performance."
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "Zidio",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2024 - November 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a complete e-commerce web app using React+Vite and Tailwind CSS.",
+      "Implemented product listings, filtering, cart, and secure checkout modules.",
+      "Connected to backend APIs for real-time inventory and order handling.",
+      "Focused on mobile-first design and page load performance."
     ],
   },
 ] as const;
@@ -223,7 +197,73 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Agritech-Nexus",
+    name: "BizFlow AI",
+    description:
+      "An AI-powered automation platform that streamlines routine business workflows using smart bots, integrations, and natural language processing.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project1,
+    source_code_link: "https://github.com/yourgithub/bizflow-ai",
+    live_site_link: "https://bizflow-ai.vercel.app/",
+  },
+  {
+    name: "GenieBot",
+    description:
+      "A smart chatbot platform that helps automate customer queries, internal FAQs, and business tasks using GPT-based AI, integrated with platforms like WhatsApp and Slack.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "relevanceai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "make",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project2,
+    source_code_link: "https://github.com/yourgithub/geniebot",
+    live_site_link: "https://geniebot-ai.vercel.app/",
+  },
+  {
+    name: "FinFlux",
+    description:
+      "A personal finance tracker that enables users to log expenses, analyze spending trends, and generate smart insights with data visualizations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project3,
+    source_code_link: "https://github.com/yourgithub/finflux",
+    live_site_link: "https://finflux-tracker.vercel.app/",
+  },
+  {
+    name: "Agritech Nexus",
     description:
       "Agritech Nexus is a web application that enables farmers to connect with buyers and sell their products directly to them.",
     tags: [
@@ -240,65 +280,21 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    image: project4,
+    source_code_link: "https://github.com/yourgithub/agritech-nexus",
+    live_site_link: "https://agritech-nexus.vercel.app/",
   },
   {
-    name: "Golds Gym",
+    name: "Scrappie",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
-  },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "A scrap material management platform that connects scrap sellers with buyers, allowing listings, price negotiations, and smooth transactions.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
@@ -306,53 +302,31 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    source_code_link: "https://github.com/yourgithub/scrappie",
+    live_site_link: "https://scrappie-marketplace.vercel.app/",
   },
   {
-    name: "Travel Advisor",
+    name: "Chatbot in Streamlit",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "An AI chatbot developed using Streamlit that allows real-time question answering and interaction through a simple and clean interface.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "openai",
         color: "pink-text-gradient",
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    source_code_link: "https://github.com/yourgithub/streamlit-chatbot",
+    live_site_link: "https://streamlit-chatbot-app.streamlit.app/",
   },
 ] as const;
 
@@ -360,21 +334,21 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://www.youtube.com/@SanjayBatthula24",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/sanjay-batthula-628075261/",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://twitter.com",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/sanjay-batthula",
   },
 ] as const;

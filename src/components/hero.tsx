@@ -58,9 +58,9 @@ export const Hero = () => {
             <span className="text-[#915eff]" ref={typedElement2}></span>
           </h1>
           <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I am a Software Developer & Web Developer, <br className="sm:block hidden" />
-            crafting dynamic websites, user interfaces, and scalable applications.
-          </p>
+  I’m an AI & Automation Enthusiast and Software Developer,<br className="sm:block hidden" />
+  building smart chatbots, automated workflows, and responsive web applications.
+</p>
         </div>
       </div>
 
