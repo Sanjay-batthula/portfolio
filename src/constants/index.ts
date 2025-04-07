@@ -36,6 +36,8 @@ import {
   linkedin,
   twitter,
   github,
+  edueme,
+  zidio,
 } from "../assets";
 
 // Navbar Links
@@ -140,8 +142,8 @@ export const TECHNOLOGIES = [
 export const EXPERIENCES = [
   {
     title: "Web Developer",
-    company_name: "EduMe Research Labs",
-    icon: starbucks,
+    company_name: "EdueMe Research Labs",
+    icon: edueme,
     iconBg: "#383E56",
     date: "January 2025 - March 2025",
     points: [
@@ -154,7 +156,7 @@ export const EXPERIENCES = [
   {
     title: "Web Developer",
     company_name: "Zidio",
-    icon: shopify,
+    icon: zidio,
     iconBg: "#383E56",
     date: "August 2024 - November 2024",
     points: [
@@ -259,7 +261,7 @@ export const PROJECTS = [
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/yourgithub/finflux",
+    source_code_link: "https://github.com/Sanjay-batthula/FinFLux",
     live_site_link: "https://finflux-tracker.vercel.app/",
   },
   {
@@ -281,7 +283,7 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/yourgithub/agritech-nexus",
+    source_code_link: "https://github.com/Pranay-143612/Agritech-Nexus",
     live_site_link: "https://agritech-nexus.vercel.app/",
   },
   {
@@ -303,8 +305,8 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/yourgithub/scrappie",
-    live_site_link: "https://scrappie-marketplace.vercel.app/",
+    source_code_link: "https://github.com/Sanjay-batthula/scrappie",
+    live_site_link: "https://scrappie.vercel.app",
   },
   {
     name: "Chatbot in Streamlit",

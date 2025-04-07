@@ -29,6 +29,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import edueme from "./company/edueme.png";
+import zidio from "./company/zidio.jpg";
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -86,4 +88,6 @@ export {
   youtube,
   linkedin,
   twitter,
+  edueme,
+  zidio,
 };
